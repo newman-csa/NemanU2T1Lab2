@@ -19,7 +19,7 @@ public class ChatBotRunner
         int num2 = scn.nextInt();
         int num3 = scn.nextInt();
         System.out.println("Ok, the sum of those numbers is "+ winter.addNumbers(num1, num2, num3));
-        System.out.println("That number converted to meters is "+ winter.convertFeetToMeters(winter.addNumbers(num1, num2, num3)));
+        System.out.println("That number converted to meters from feet is "+ winter.convertFeetToMeters(winter.addNumbers(num1, num2, num3)));
         System.out.println(winter.goodbye());
 
     }
